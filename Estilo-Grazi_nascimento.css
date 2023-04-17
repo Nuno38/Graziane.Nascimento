@@ -98,28 +98,28 @@ box-sizing: border-box;
 } 
 .container__box{
     margin: 0em 1em;
-}.secundario{    
+}.secundario{ 
+    width: 100%;   
     text-align: left;
-    margin-top: 1em;
     margin: 0px 0px 0px 0px;
     align-items: center;
-    border-top: 1px solid rgb(207, 37, 37);
+    
     background-color: rgb(176, 177, 179);
     
 }/* Imagens da pagina */
 .container__imagem{
-    width: 500px;
-    margin: -745px 0px 20px 1495px;
+    width: 600px;
+    margin: -645px 0px 0px 1287px;
    
 }.container__imagem2{
    width: 280px;
     margin: -100px 0px 0px 0px;
     
-}.img_comenta1{
-    width: 350px;
-    margin: -100px 0px 0px 50px;
+}.Avalia{
+    
+    margin: 100px 0px 0px 300px;
     text-align: center;
-    border-left: 1px solid red;
+    
 }.titulo1{
 
     font-size: var(--tamanho-letra-titulo);
