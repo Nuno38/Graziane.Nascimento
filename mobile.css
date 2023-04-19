@@ -59,7 +59,7 @@ box-sizing: border-box;
 }/* Imagens da pagina */
 .container__imagem{
     width: 400px;
-    margin: -645px 0px 0px 687px;
+    margin: 345px 0px 0px 187px;
    
 }.container__imagem2{
    width: 280px;
@@ -76,7 +76,7 @@ box-sizing: border-box;
     color: var(--cor-das-letras);
     font-style: var(--estilo-de-letras);
     text-align: right;
-    margin: 250px -10px 0px 100px;
+    margin: 150px 0px 0px 50px;
     width: 1px;
     border-left: 1px solid red;
     
