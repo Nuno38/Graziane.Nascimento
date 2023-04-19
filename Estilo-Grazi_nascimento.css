@@ -115,7 +115,7 @@ box-sizing: border-box;
     font-size: 22px;
     margin: 0px 50px 350px -950px;
     /* inicio mobile */
-}@media only screen and (max-width:500px) and (orientation:landscape){
+}@media only screen and (max-width:400px) and (orientation:landscape){
 
 }body{
     background-color: var(--cor-de-fundo);
