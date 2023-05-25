@@ -66,7 +66,7 @@ box-sizing: border-box;
 }/* Imagens da pagina */
 .container__imagem{
     width: 670px;
-    margin: -555px 0px 0px 1200px;
+    margin: -655px 0px 0px 1200px;
    
 }.container__imagem2{
    width: 280px;
@@ -75,19 +75,24 @@ box-sizing: border-box;
         width: 70px;
         margin: -890px 850px 780px -450px; 
     }
-    /*Alinhamento titulos*/
-.Avalia,.Quadro_unhas{
     
-    margin: 150px 10px -30px 300px;
-    text-align: center;
+.Avalia{
+    margin: 450px 10px -30px 350px;
+}
+.quadro_unha{
     
-}.titulo1{
+    margin: 300px 0px -290px 300px;
+   
+   
+    
+}/*Alinhamento titulos*/ 
+.tituloName{
 
     font-size: var(--tamanho-letra-titulo);
     color: var(--cor-das-letras);
     font-style: var(--estilo-de-letras);
     text-align: right;
-    margin: 250px 0px 0px 170px;
+    margin: 350px 0px 0px 170px;
     width: 1px;
     border-left: 1px solid red;
     
@@ -98,29 +103,20 @@ box-sizing: border-box;
     margin: 30px 850px 0px 0px;
     text-align: right;
 
-}.titulo2{
+}.tituloProcedimento{
      font-size: var(--tamanho-letra-paragrafo);
      font-style: var(--estilo-de-letras);
      color: var(--cor-das-letras-titulos);
-     margin: -652px 390px 510px 780px;
+     margin: -452px 390px 730px 780px;
      text-align: right;
      border-left: 2px solid red;
      
-}.titulo3{
+}.tituloAvaliacao{
     font-size: var(--tamanho-letra-paragrafo);
     font-style: var(--estilo-de-letras);
     color: var(--cor-das-letras-titulos);
-    margin: -552px 390px 210px 680px;
+    margin: 100px 680px 200px -750px;
     text-align: right;
     border-left: 2px solid red;
     
-}.box_Procedimento{
-    text-decoration: none;
-    list-style: none;
-    margin: -1950px 0px 0px 0px;
- 
-}.procedimentos li a{
-    text-decoration: none;
-    list-style: none;
-    margin: -1050px 10px 0px 0px;
 }
