@@ -83,9 +83,24 @@ box-sizing: border-box;
     
     margin: 300px 0px -290px 300px;
    
-   
-    
-}/*Alinhamento titulos*/ 
+}.espaco{
+
+    margin: 200px 0px -290px 450px;
+
+}.imagemLocaliza{
+
+    margin: 400px 0px 0px 150px;
+
+}.imagemInstagram{
+
+    margin: 400px 0px 0px -750px;
+
+}.imagemWhatsapp{
+
+    margin: -190px 00px 62px 1500px;
+
+}
+/*Alinhamento titulos*/ 
 .tituloName{
 
     font-size: var(--tamanho-letra-titulo);
@@ -119,4 +134,15 @@ box-sizing: border-box;
     text-align: right;
     border-left: 2px solid red;
     
+}.tituloEspaco{
+    font-size: var(--tamanho-letra-paragrafo);
+    font-style: var(--estilo-de-letras);
+    color: var(--cor-das-letras-titulos);
+    margin: 100px 850px 200px -750px;
+    text-align: right;
+    border-left: 2px solid red;
+}.tituloRodaPe{ 
+    color: var(--cor-das-letras);
+    font-style: var(--estilo-de-letras);
+    text-align: center;
 }
