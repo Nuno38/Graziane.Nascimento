@@ -23,7 +23,7 @@ html,body,:root{
     height: 100vh;
     display: grid;
     grid-template-columns: 80% 20%;
-}/*  
+} 
 .menu{
 
     float: left;
@@ -42,7 +42,8 @@ html,body,:root{
     text-decoration: none;
     color: var(--cor-das-letras);
     margin: 32px 5px 150px 50px;
-}*/.container__box{
+   
+}.container__box{
     margin: 0em -6em;
 }.secundario{ 
     width: 100%;   
