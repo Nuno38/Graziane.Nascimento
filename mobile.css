@@ -4,7 +4,7 @@
     --cor-de-fundo:#4d4b4a;
     --cor-das-letras:rgb(250, 248, 248);
     --estilo-de-letras:arial, Helvetica, sans-serif;
-    --tamanho-letra-titulo:42px;
+    --tamanho-letra-titulo:72px;
     --tamanho-letra-paragrafo:31px;
 } 
 html,body,:root{
@@ -33,7 +33,7 @@ html,body,:root{
 
     height: 100%;
     display: inline;
-    font-size: 22px;
+    font-size: 21px;
     margin-top: 5px;
 
 }
@@ -58,52 +58,86 @@ html,body,:root{
     margin: 45px 0px 0px -17px;
    
 }.container__imagem2{
-   width: 200px;
-    margin: -100px 0px 0px -0px;
+   width: 280px;
+   margin: -300px 0px 0px 0px;
+      
+}.logo{ 
+        width: 70px;
+        margin: 0px 0px 0px -0px; 
+    }
     
-}.Avalia{
-    width: 100px;
-    margin: 400px 50px 0px 10px;
-    text-align: center;
+.Avalia{
+    width:400px;
+    margin: 450px 0px 0px -7px;
+}
+.quadro_unha{
+    width:400px;
+    margin: 300px 0px 0px 0px;
+   
+}.espaco{
+    width:390px;
+
+    margin: 0px 0px 0px 0px;
+
+}.imagemLocaliza{
     
-}.titulo1{
+    width:200px;
+    margin: 0px 0px 0px 100px;
+
+}.imagemInstagram{
+    
+    width:200px;
+    margin: 200px 0px 0px -200px;
+
+}.imagemWhatsapp{
+
+    width:150px;
+    margin: 0px 0px 0px 100px;
+
+}
+/*Alinhamento titulos*/ 
+.tituloName{
 
     font-size: var(--tamanho-letra-titulo);
     color: var(--cor-das-letras);
     font-style: var(--estilo-de-letras);
     text-align: right;
-    margin: 250px -10px 0px 100px;
+    margin: 150px 0px 0px 0px;
     width: 1px;
     border-left: 1px solid red;
     
 }.subtitulo{
-    font-size: var(--tamanho-letra-paragrafo);
+    font-size: var(--tamanho-letra-subtitulo);
     color: var(--cor-das-letras);
     font-style: var(--estilo-de-letras);
-    margin: 20px 80px 0px -30px;
+    margin: 30px 850px 0px 0px;
     text-align: right;
 
-}.titulo2{
+}.tituloProcedimento{
      font-size: var(--tamanho-letra-paragrafo);
      font-style: var(--estilo-de-letras);
-     color: var(--cor-das-letras);
-     margin: -752px -100px 0px 850px;
+     color: var(--cor-das-letras-titulos);
+     margin: -400px 0px 400px 60px;
      text-align: right;
      border-left: 2px solid red;
      
-}.botao{
-
-    background-color: greenyellow;
-    border: 2px solid greenyellow;
+}.tituloAvaliacao{
+    font-size: 30px;
     font-style: var(--estilo-de-letras);
-    border-radius: 10px 0px 0px 10px ;
-    margin: 250px 950px 0px 0px;
-    font-size: 22px;
-
-}.botao2{
-    background-color: greenyellow;
-    border: 2px solid greenyellow;
-    border-radius: 0px 10px 10px 0px ;
-    font-size: 22px;
-    margin: 0px 50px 350px -950px;
+    color: var(--cor-das-letras-titulos);
+    margin: -200px 60px 10px -270px;
+    text-align: right;
+    border-left: 2px solid red;
+    
+}.tituloEspaco{
+    font-size: var(--tamanho-letra-paragrafo);
+    font-style: var(--estilo-de-letras);
+    color: var(--cor-das-letras-titulos);
+    margin: 100px 850px 200px -750px;
+    text-align: right;
+    border-left: 2px solid red;
+}.tituloRodaPe{ 
+    color: var(--cor-das-letras);
+    font-style: var(--estilo-de-letras);
+    text-align: center;
 }
