@@ -47,10 +47,9 @@ html,body,:root{
     margin: 0em -6em;
 }.secundario{ 
     width: 100%;   
-    text-align: left;
-    margin: 0px -1550px 0px 0px;
     align-items: center;
     background-color: rgb(176, 177, 179);
+   padaggin: 90em
     
     
 }/* Imagens da pagina */
@@ -73,7 +72,7 @@ html,body,:root{
 }
 .quadro_unha{
     width:400px;
-    margin: 300px 0px 0px 0px;
+    margin: 300px 0px 0px 70px;
    
 }.espaco{
     width:390px;
